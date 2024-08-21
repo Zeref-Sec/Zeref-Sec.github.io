@@ -1,5 +1,23 @@
-title: Your Blog Title
-description: A short description of your blog
+# Site settings
+title: Your Hacker Blog
+description: A blog about hacking, technology, and more
+author: Your Name
+
+# Build settings
 remote_theme: pages-themes/hacker@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll-remote-theme
+
+# Hacker theme settings
+show_downloads: false
+google_analytics:
+
+# Other settings
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+
+# Social media links (optional)
+github_username: your-github-username
+twitter_username: your-twitter-username
+linkedin_username: your-linkedin-username
